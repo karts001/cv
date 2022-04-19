@@ -1,23 +1,137 @@
+/************************* TAG SELECTORS ************************/
+
 body {
-        background-color: #EAF6F6;
-        align: center;
+        background-color: #F0F5F9;
+        max-width: 1000px;
     }
 
-    hr {
-        border-style: none;
-        border-top-style: dotted;
-        border-color: grey;
-        border-width: 5px;
-        width: 5%;
-    }
+hr {
+    border-style: none;
+    border-top-style: solid;
+    border-color: black;
+    border-width: 3px;
+    max-width: 100%;
+    margin-left: 0;
+}
 
-    h1, h3 {
-        color: #66BFBF;
-    }
+table {
+}
 
-    table {
-    }
+td {
+    padding-right: 15px;
+}
 
-    td {
-        padding-right: 15px;
-    }
+p, a {
+  font-family: Cambria, sans-serif;
+  font-size: 0.75em;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+ul {
+    font-family: Cambria, sans-serif;
+    font-size: 0.75em;
+    padding-left: 10px;
+}
+
+
+/************************* CLASS SELECTORS ************************/
+
+.title {
+    font-family: Cambria, sans-serif;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #1E2022;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.job_title {
+    font-family: Cambria, sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+    color: #D72323;
+    margin-top: 0;
+
+}
+
+.headings {
+    font-family: Cambria, sans-serif;
+    font-size: 1.25em;
+    font-weight: bold;
+    color: #1E2022;
+    margin-bottom: 0;
+
+}
+
+.sub_headings {
+    font-family: Cambria, sans-serif;
+    font-size: 1em;
+    font-weight: normal;
+    font-style: italic;
+    color: #D72323;
+
+}
+
+.placement {
+    font-family: Cambria, sans-serif;
+    font-size: 0.8em;
+    font-weight: bold;
+    font-style: normal;
+    color: #1E2022;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.col {
+    float: left;
+    padding: 20px;
+
+}
+
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 40%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.container {
+    width:100%;
+    background-color: #F0F5F9;
+}
+
+.skills {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    color: white;
+}
+
+.html {
+    width: 50%;
+    background-color: DarkOrange;
+}
+
+.css {
+    width: 50%;
+    background-color: DodgerBlue;
+}
+
+.python {
+    width: 60%;
+    background-color: DarkMagenta;
+}
+
+.agile {
+    width: 60%;
+    background-color: Crimson;
+}

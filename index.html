@@ -5,84 +5,100 @@
         <meta charset="utf-8">
         <title>Shiva's CV</title>
 
-    <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/styles.css">
     </head>
     <body>
-    <table>
-        <tr>
-            <!--<td>
-                Change the image to a picture of myself
-                 <img src="https://upload.wikimedia.org/wikipedia/commons/3/34/Elon_Musk_Royal_Society_%28crop2%29.jpg" alt="Elon Musk Profile Picture">
-            </td> -->
-            <td>
-                <h1>Shiva Karthikeyan</h1>
-                <p><em>Software Engineer at <strong>Thales</strong></em></p>
-                <p>I am a Robotic Process Automation (RPA) Developer at Thales.</p>
-            </td>
-        </tr>
-    </table>
-    <hr size="3">
+
+    <!-- Split the page into two separate columns -->
+    <!-- 1x2, create one div for the row which will contain all of the contents. Create a col, left and right class.
+     There will be 2 instances of the col class and 1 each of the left and right. This will allow me to put the desired
+     contents into each column-->
+    <div class="row">
+        <div class="col left">
+            <h1 class="title">SHIVA KARTHIKEYAN</h1>
+            <h2 class="job_title">Junior Software Engineer</h2>
+            <p>📧 shiva.karthikeyan1001@gmail.com | 📞 07787 532983 | 📍 London, UK </p>
+            <a href="https://www.linkedin.com/in/shiva-karthikeyan-34200a18a?originalSubdomain=uk">💼 LinkedIn</a>
+
+        <!-- Section to detail my work history related to software engineering -->
+            <h2 class="headings">WORK HISTORY</h2>
+            <hr>
+            <p class="job_title">Thales UK Engineering Graduate Scheme (2019-Present)</p>
+
+            <p class="placement">Placement 1 September 2019 - March 2020 🗓️</p>
+            <ul>
+                <li>Part of the Flight Avionics function working in the mechanical design team as a design engineer</li>
+                <li>Designed the height adjustment mechanism for a driving simulator</li>
+            </ul>
+
+            <p class="placement">Placement 2 March 2020 - March 2021 🗓️</p>
+            <ul>
+                <li>Joined the Research Technology & Innovation (RTI) business unit as a software engineer and worked
+                    on a team developing an Integrated Mission Management System (IMMS). </li>
+                <li>Researched various path planning algorithms and implemented 3 into the mission planner module in
+                    IMMS. All the algorithms were written in Python.</li>
+                <li>Researched and determined the feasibility of using RabbitMQ as a transport layer within IMMS.</li>
+                <li>Provided a live demonstration of my research on RabbitMQ to my team </li>
+                <li>Wrote research notes for both tasks and had them published internally on the RTI wiki</li>
+            </ul>
+            <p class="placement">Placement 3 March 2021 - Present 🗓️</p>
+            <ul>
+                <li>Joined the Robotic Process Automation (RPA) team as a RPA developer. </li>
+                <li>I have created 3 bots for different part of the business (Finance, Bids and Project Management, and
+                    Procurement) and annually they save the business a total of £500k.  </li>
+                <li>As part of this role I have developed a close working relationship with various parts of the
+                    business. This has helped me deliver RPAs quickly and maintain good relations with the customer.
+                </li>
+            </ul>
+        </div>
 
     <!-- Section to detail my education history post school -->
-    <h3>Education</h3>
+        <div class="col right">
 
-    <table>
-    <tr>
-        <th>Dates</th>
-        <th>Degree</th>
-    </tr>
-    <tr>
-        <td>
-            <p>2014-2018</p>
-        </td>
-        <td>
-            <p>Integrated Masters in Mechanical Engineering</p>
-        </td>
-    </tr>
-     <tr>
-        <td>
-            <p>2019-2021</p>
-        </td>
-        <td>
-            <p>Post Graduate Diploma in Engineering Competence</p>
-        </td>
-    </tr>
-    </table>
+            <h3 class="headings">EDUCATION</h3>
+            <hr>
+                <p class="job_title">Integrated Masters in Mechanical Engineering</p>
+                <p><em>University of Southampton (2014-2018)</em></p>
+                <br>
+                <p class="job_title">Post Graduate Diploma in Engineering Competence</p>
+                <p><em>Cranfield University (2019-2021)</em></p>
 
-    <hr>
+            <h3 class="headings">PERSONAL CODING PROJECTS</h3>
+            <hr>
+            <p> Personal coding projects: </p>
+            <ul>
+                <li>Cheap Flight Deals Tracker - Making requests to APIs, sending text message notifications via Twillio
+                </li>
+                <li>Rain Checker - Uses API requests to check whether it is going to rain in London and sends a text
+                    message if it is. Hosted on PythonAnywhere to run constantly</li>
+                <li>Pong game - Recreated the pong game in console using the turtle library</li>
+                <li>Recreated and improved my CV using HTML and CSS. Being hosted via Github</li>
+            </ul>
+            <h3 class="headings">SKILLS</h3>
+            <hr>
+            <table>
+                <tr>
+            <p>PYTHON</p>
+                <div class="container">
+                    <div class="skills python">60%</div>
+                </div>
+            <p>AGILE</p>
+                <div class="container">
+                    <div class="skills agile">60%</div>
+                </div>
+            <p>HTML</p>
+                <div class="container">
+                    <div class="skills html">50%</div>
+                </div>
+            <p>CSS</p>
+                <div class="container">
+                    <div class="skills css">50%</div>
+                </div>
+            </table>
 
-    <!-- Section to detail my work history related to software engineering -->
-    <h3>Work History</h3>
+            <a href="hobbies.html">My Hobbies</a>
+        </div>
 
-    <table>
-    <tr>
-        <th>Dates</th>
-        <th>Job</th>
-    </tr>
-    <tr>
-        <td>
-            <p>2019-Present</p>
-        </td>
-        <td>
-            <p>Thales UK Engineering Graduate Scheme</p>
-        </td>
-    </tr>
-    </table>
-
-    <hr>
-    <h3>Skills</h3>
-
-    <table>
-    <tr>
-        <td>Python ⭐⭐⭐⭐ <br> HTML ⭐⭐</td>
-        <td>Teamwork ⭐⭐⭐⭐⭐ <br> Cricket ⭐⭐⭐⭐⭐</td>
-    </tr>
-    </table>
-
-    <hr>
-    <a href="hobbies.html">My Hobbies</a>
-    <a href="contact.html">Contact me</a>
-
-
+    </div>
     </body>
 </html>
